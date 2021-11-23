@@ -1,0 +1,27 @@
+IslandMonsB4:
+	db $0A
+	IF DEF(_RED)
+		db 31,HORSEA
+		db 31,SHELLDER
+		db 33,HORSEA
+		db 33,SHELLDER
+		db 29,SLOWPOKE
+		db 30,SEEL
+		db 31,SLOWPOKE
+		db 32,GOLBAT
+		db 39,SLOWBRO
+		db 39,JYNX
+	ENDC
+	IF DEF(_BLUE)
+		db 31,KRABBY
+		db 31,STARYU
+		db 33,KRABBY
+		db 33,STARYU
+		db 29,PSYDUCK
+		db 30,SEEL
+		db 31,PSYDUCK
+		db 32,GOLBAT
+		db 39,GOLDUCK
+		db 39,JYNX
+	ENDC
+	db $00

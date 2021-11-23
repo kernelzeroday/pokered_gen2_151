@@ -1,0 +1,27 @@
+Route8Mons:
+	db $0F
+	IF DEF(_RED)
+		db 19,MANKEY
+		db 18,EKANS
+		db 18,PIDGEY
+		db 16,GROWLITHE
+		db 19,MEOWTH
+		db 20,PIDGEY
+		db 18,SANDSHREW
+		db 17,GROWLITHE
+		db 16,VULPIX
+		db 17,VULPIX
+	ENDC
+	IF DEF(_BLUE)
+		db 19,MEOWTH
+		db 18,SANDSHREW
+		db 18,PIDGEY
+		db 16,VULPIX
+		db 19,MANKEY
+		db 20,PIDGEY
+		db 18,EKANS
+		db 17,VULPIX
+		db 16,GROWLITHE
+		db 17,GROWLITHE
+	ENDC
+	db $00
